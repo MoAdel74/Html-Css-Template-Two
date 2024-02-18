@@ -374,10 +374,15 @@ header .form i:hover {
         top: -35%;
         right: 0;
         width: 100%;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .design .image img {
         top: 90%;
+    }
+    .design .text h2 {
+        text-align: center;
     }
 }
 .design .text h2 {
