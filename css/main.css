@@ -584,6 +584,7 @@ header .form i:hover {
 @media (max-width: 767px) {
     .stats .box {
         flex-basis: 100%;
+        border-right: none;
     }
     .stats .box:not(:last-of-type) {
         border-bottom: 2px solid #673ab7;
