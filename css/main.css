@@ -833,6 +833,8 @@ q::after {
     width: fit-content;
     margin: 30px auto;
     transition: 0.3s;
+    color: black;
+    font-weight: bold;
 }
 .pricing .plans .box .foot a:hover {
     background-color: var(--main-color);
